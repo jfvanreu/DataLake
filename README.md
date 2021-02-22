@@ -43,7 +43,7 @@ As part of this project, we'll create a star schema optimized for queries on son
   - start_time, hour, day, week, month, year, weekday
 
 Here is graphical representation of the database schema.
-![DB design](./images/DBdesign.jpeg)
+![DB design](./image/DBdesign.jpeg)
 
 ## Data sets
 
