@@ -42,6 +42,9 @@ As part of this project, we'll create a star schema optimized for queries on son
 - *time* - timestamps of records in songplays broken down into specific units
   - start_time, hour, day, week, month, year, weekday
 
+Here is graphical representation of the database schema.
+![DB design](./images/DBdesign.jpeg)
+
 ## Data sets
 
 Two datasets reside in AWS S3:
