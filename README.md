@@ -83,8 +83,8 @@ We transferred our scripts and notebook to this new Jupyter environment and veri
 
 Finally, once we validated the Jupyter Notebook on EMR, we copied the etl.py and dl.cfg files to the EMR master node (/home/hadoop/ folder). We used the following commands to do so:
 
-- scp -i ~/.aws/sparky.pem **etl.py** ec2-54-188-102-211.us-west-2.compute.amazonaws.com:/home/hadoop/
-- scp -i ~/.aws/sparky.pem **dl.cfg** ec2-54-188-102-211.us-west-2.compute.amazonaws.com:/home/hadoop/
+- scp -i ~/.aws/sparky.pem **etl.py** hadoop@ec2-54-188-102-211.us-west-2.compute.amazonaws.com:/home/hadoop/
+- scp -i ~/.aws/sparky.pem **dl.cfg** hadoop@ec2-54-188-102-211.us-west-2.compute.amazonaws.com:/home/hadoop/
 
 scp is a unix command to copy across machines. We provide our public key (sparky.pem) to connect to the running EMR master machine.
 
